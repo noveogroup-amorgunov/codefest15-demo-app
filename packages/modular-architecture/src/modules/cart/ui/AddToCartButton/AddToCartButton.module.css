@@ -1,0 +1,42 @@
+
+.root_outOfStock {
+  width: fit-content;
+  height: 30px;
+  border-radius: 24px;
+  padding: 0 12px;
+  background-color: var(--color-primary);
+  opacity: 0.5;
+  color: var(--color-background);
+  display: flex;
+  align-items: center;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  background-color: var(--color-primary);
+  color: var(--color-card-background);
+  cursor: pointer;
+
+  width: fit-content;
+  height: 30px;
+  border-radius: 24px;
+  font-weight: 500;
+}
+
+.root.root_notInCart {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text);
+}
+
+.root .button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 32px;
+}
+
+.root.root_notInCart .button {
+  color: var(--color-text);
+}

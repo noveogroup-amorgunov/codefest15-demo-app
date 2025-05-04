@@ -1,0 +1,1 @@
+- use type alias instead of interface if it is possible in typescript
