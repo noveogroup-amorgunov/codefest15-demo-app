@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import type { FeatureFlag } from '~/shared/feature-flags'
 import { featureFlagService } from '../../model/feature-flags.service'
+import type { FeatureFlag } from '../../model/types'
 import styles from './FeatureToggle.module.css'
 
 export function FeatureToggle() {
