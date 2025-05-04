@@ -8,18 +8,8 @@ See preview on https://codefest15.netlify.app (deployed `packages/modular-archit
 - [`modular-architecture-fsd`](./packages/modular-architecture-fsd/) - project on modular architecture with feature sliced design
 - [`clean-architecture`](./packages/clean-architecture/) - project based on clean architecture
 
-## Generate dependency graph
+## Dependencies graph
 
-- pnpm: 
-
-```bash
-cd packages/{PACKAGE}
-pnpm exec depcruise src --include-only "^src" --output-type dot | dot -T svg > dependency-graph.svg
-```
-
-- npx:
-
-```bash
-cd packages/{PACKAGE}
-npx depcruise src --include-only "^src" --output-type dot | dot -T svg > dependency-graph.svg
-```
+| modular-architecture 	| modular-architecture-fsd 	| clean-architecture 	|
+|---	|---	|---	|
+| ![Dependency Graph](./packages/modular-architecture/dependency-graph.svg) 	| ![Dependency Graph](./packages/modular-architecture-fsd/dependency-graph.svg) 	| ![Dependency Graph](./packages/clean-architecture/dependency-graph.svg) 	|

@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --fix .",
-    "steiger": "steiger ./src"
+    "steiger": "steiger ./src",
+    "depcruise": "depcruise src --include-only \"^src\" --output-type dot | dot -T svg > dependency-graph.svg"
   },
   "dependencies": {
     "@antfu/eslint-config": "^4.4.0",
