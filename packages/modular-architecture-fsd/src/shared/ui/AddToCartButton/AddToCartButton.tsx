@@ -1,5 +1,5 @@
 import type { Money } from '@monorepo/shared'
-import { Price } from '~/shared/ui'
+import { Price } from '../Price/Price'
 import audioUrl from './mixkit-on-or-off-light-switch-tap-2585.wav?url'
 import styles from './AddToCartButton.module.css'
 
