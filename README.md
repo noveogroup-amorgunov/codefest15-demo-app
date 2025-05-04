@@ -4,5 +4,5 @@ See preview on https://codefest15.netlify.app (deployed `packages/modular-archit
 
 ## Packages
 
-- `modular-architecture` - project on modular architecture
-- `modular-architecture-fsd` - project on modular architecture with feature sliced design
+- [`modular-architecture`](./packages/modular-architecture/) - project on modular architecture
+- [`modular-architecture-fsd`](./packages/modular-architecture-fsd/) - project on modular architecture with feature sliced design
