@@ -116,13 +116,13 @@
 </g>
 <g id="clust22" class="cluster">
 <title>cluster_src/shared/ui/Layout</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M860.38,-512C860.38,-512 1081.88,-512 1081.88,-512 1087.88,-512 1093.88,-518 1093.88,-524 1093.88,-524 1093.88,-552 1093.88,-552 1093.88,-558 1087.88,-564 1081.88,-564 1081.88,-564 860.38,-564 860.38,-564 854.38,-564 848.38,-558 848.38,-552 848.38,-552 848.38,-524 848.38,-524 848.38,-518 854.38,-512 860.38,-512"/>
-<text text-anchor="middle" x="971.12" y="-551.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">Layout</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M860.38,-572C860.38,-572 1081.88,-572 1081.88,-572 1087.88,-572 1093.88,-578 1093.88,-584 1093.88,-584 1093.88,-612 1093.88,-612 1093.88,-618 1087.88,-624 1081.88,-624 1081.88,-624 860.38,-624 860.38,-624 854.38,-624 848.38,-618 848.38,-612 848.38,-612 848.38,-584 848.38,-584 848.38,-578 854.38,-572 860.38,-572"/>
+<text text-anchor="middle" x="971.12" y="-611.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">Layout</text>
 </g>
 <g id="clust23" class="cluster">
 <title>cluster_src/shared/ui/Price</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M862,-572C862,-572 908,-572 908,-572 914,-572 920,-578 920,-584 920,-584 920,-612 920,-612 920,-618 914,-624 908,-624 908,-624 862,-624 862,-624 856,-624 850,-618 850,-612 850,-612 850,-584 850,-584 850,-578 856,-572 862,-572"/>
-<text text-anchor="middle" x="885" y="-611.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">Price</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1016.62,-512C1016.62,-512 1062.62,-512 1062.62,-512 1068.62,-512 1074.62,-518 1074.62,-524 1074.62,-524 1074.62,-552 1074.62,-552 1074.62,-558 1068.62,-564 1062.62,-564 1062.62,-564 1016.62,-564 1016.62,-564 1010.62,-564 1004.62,-558 1004.62,-552 1004.62,-552 1004.62,-524 1004.62,-524 1004.62,-518 1010.62,-512 1016.62,-512"/>
+<text text-anchor="middle" x="1039.62" y="-551.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">Price</text>
 </g>
 <g id="clust24" class="cluster">
 <title>cluster_src/widgets</title>
@@ -548,44 +548,38 @@
 <!-- src/shared/ui/index.ts&#45;&gt;src/shared/ui/AddToCartButton/AddToCartButton.tsx -->
 <g id="edge41" class="edge">
 <title>src/shared/ui/index.ts&#45;&gt;src/shared/ui/AddToCartButton/AddToCartButton.tsx</title>
-<g id="a_edge41"><a xlink:title="no&#45;circular">
-<path fill="none" stroke="orange" stroke-width="2" d="M741.42,-575.83C762.23,-562.2 797.14,-536.69 827.38,-515 838.79,-506.81 851.57,-497.78 862.09,-489.8"/>
-<polygon fill="orange" stroke="orange" stroke-width="2" points="870.94,-485.36 874.29,-479.96 868.3,-482.09 870.94,-485.36"/>
-<polyline fill="none" stroke="orange" stroke-width="2" points="868.84,-484.35 866.51,-486.24"/>
-<ellipse fill="none" stroke="orange" stroke-width="2" cx="863.86" cy="-488.37" rx="2.4" ry="2.4"/>
-</a>
-</g>
-<text text-anchor="middle" x="831.38" y="-519.21" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no&#45;circular</text>
-</g>
-<!-- src/shared/ui/Layout/Layout.tsx -->
-<g id="node31" class="node">
-<title>src/shared/ui/Layout/Layout.tsx</title>
-<g id="a_node31"><a xlink:href="src/shared/ui/Layout/Layout.tsx" xlink:title="Layout.tsx">
-<path fill="#bbfeff" stroke="black" d="M907.71,-537.88C907.71,-537.88 862.29,-537.88 862.29,-537.88 859.33,-537.88 856.38,-534.92 856.38,-531.96 856.38,-531.96 856.38,-526.04 856.38,-526.04 856.38,-523.08 859.33,-520.12 862.29,-520.12 862.29,-520.12 907.71,-520.12 907.71,-520.12 910.67,-520.12 913.62,-523.08 913.62,-526.04 913.62,-526.04 913.62,-531.96 913.62,-531.96 913.62,-534.92 910.67,-537.88 907.71,-537.88"/>
-<text text-anchor="start" x="864.38" y="-525.33" font-family="Helvetica,sans-Serif" font-size="9.00">Layout.tsx</text>
-</a>
-</g>
-</g>
-<!-- src/shared/ui/index.ts&#45;&gt;src/shared/ui/Layout/Layout.tsx -->
-<g id="edge42" class="edge">
-<title>src/shared/ui/index.ts&#45;&gt;src/shared/ui/Layout/Layout.tsx</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M749.23,-575.88C776.89,-566.25 820.57,-551.06 850.67,-540.59"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="856.99,-540.62 850.64,-540.6 855.61,-536.65 856.99,-540.62"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M729.39,-575.89C744.14,-555.59 782.75,-506.51 827.38,-482 827.84,-481.75 828.31,-481.5 828.78,-481.25"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="835.12,-480.66 828.79,-481.25 833.37,-476.84 835.12,-480.66"/>
 </g>
 <!-- src/shared/ui/Price/Price.tsx -->
-<g id="node32" class="node">
+<g id="node29" class="node">
 <title>src/shared/ui/Price/Price.tsx</title>
-<g id="a_node32"><a xlink:href="src/shared/ui/Price/Price.tsx" xlink:title="Price.tsx">
-<path fill="#bbfeff" stroke="black" d="M906.08,-597.88C906.08,-597.88 863.92,-597.88 863.92,-597.88 860.96,-597.88 858,-594.92 858,-591.96 858,-591.96 858,-586.04 858,-586.04 858,-583.08 860.96,-580.12 863.92,-580.12 863.92,-580.12 906.08,-580.12 906.08,-580.12 909.04,-580.12 912,-583.08 912,-586.04 912,-586.04 912,-591.96 912,-591.96 912,-594.92 909.04,-597.88 906.08,-597.88"/>
-<text text-anchor="start" x="867.75" y="-585.33" font-family="Helvetica,sans-Serif" font-size="9.00">Price.tsx</text>
+<g id="a_node29"><a xlink:href="src/shared/ui/Price/Price.tsx" xlink:title="Price.tsx">
+<path fill="#bbfeff" stroke="black" d="M1060.71,-537.88C1060.71,-537.88 1018.54,-537.88 1018.54,-537.88 1015.58,-537.88 1012.62,-534.92 1012.62,-531.96 1012.62,-531.96 1012.62,-526.04 1012.62,-526.04 1012.62,-523.08 1015.58,-520.12 1018.54,-520.12 1018.54,-520.12 1060.71,-520.12 1060.71,-520.12 1063.67,-520.12 1066.62,-523.08 1066.62,-526.04 1066.62,-526.04 1066.62,-531.96 1066.62,-531.96 1066.62,-534.92 1063.67,-537.88 1060.71,-537.88"/>
+<text text-anchor="start" x="1022.38" y="-525.33" font-family="Helvetica,sans-Serif" font-size="9.00">Price.tsx</text>
 </a>
 </g>
 </g>
 <!-- src/shared/ui/index.ts&#45;&gt;src/shared/ui/Price/Price.tsx -->
 <g id="edge43" class="edge">
 <title>src/shared/ui/index.ts&#45;&gt;src/shared/ui/Price/Price.tsx</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M749.23,-585.65C776.86,-586.34 820.47,-587.42 850.56,-588.17"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="856.47,-590.42 850.52,-588.17 856.57,-586.22 856.47,-590.42"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M749.37,-580.32C806.72,-570.15 942.68,-546.02 1005.61,-534.86"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1011.94,-535.87 1005.66,-534.85 1011.2,-531.73 1011.94,-535.87"/>
+</g>
+<!-- src/shared/ui/Layout/Layout.tsx -->
+<g id="node32" class="node">
+<title>src/shared/ui/Layout/Layout.tsx</title>
+<g id="a_node32"><a xlink:href="src/shared/ui/Layout/Layout.tsx" xlink:title="Layout.tsx">
+<path fill="#bbfeff" stroke="black" d="M907.71,-597.88C907.71,-597.88 862.29,-597.88 862.29,-597.88 859.33,-597.88 856.38,-594.92 856.38,-591.96 856.38,-591.96 856.38,-586.04 856.38,-586.04 856.38,-583.08 859.33,-580.12 862.29,-580.12 862.29,-580.12 907.71,-580.12 907.71,-580.12 910.67,-580.12 913.62,-583.08 913.62,-586.04 913.62,-586.04 913.62,-591.96 913.62,-591.96 913.62,-594.92 910.67,-597.88 907.71,-597.88"/>
+<text text-anchor="start" x="864.38" y="-585.33" font-family="Helvetica,sans-Serif" font-size="9.00">Layout.tsx</text>
+</a>
+</g>
+</g>
+<!-- src/shared/ui/index.ts&#45;&gt;src/shared/ui/Layout/Layout.tsx -->
+<g id="edge42" class="edge">
+<title>src/shared/ui/index.ts&#45;&gt;src/shared/ui/Layout/Layout.tsx</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M749.23,-585.65C776.37,-586.33 818.91,-587.38 848.93,-588.13"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="854.84,-590.38 848.89,-588.13 854.94,-586.18 854.84,-590.38"/>
 </g>
 <!-- src/widgets/popular&#45;products/store/popular&#45;products.slice.ts -->
 <g id="node39" class="node">
@@ -731,71 +725,65 @@
 </a>
 </g>
 </g>
-<!-- src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/index.ts -->
-<g id="edge36" class="edge">
-<title>src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/index.ts</title>
-<g id="a_edge36"><a xlink:title="no&#45;circular">
-<path fill="none" stroke="orange" stroke-width="2" d="M862.97,-478.36C852.29,-485.27 839.11,-494.58 827.38,-503 799.06,-523.31 766.64,-546.98 745.55,-563.78"/>
-<polygon fill="orange" stroke="orange" stroke-width="2" points="736.68,-568.43 733.42,-573.89 739.37,-571.66 736.68,-568.43"/>
-<polyline fill="none" stroke="orange" stroke-width="2" points="738.8,-569.41 741.1,-567.49"/>
-<ellipse fill="none" stroke="orange" stroke-width="2" cx="743.71" cy="-565.31" rx="2.4" ry="2.4"/>
-</a>
-</g>
-<text text-anchor="middle" x="774.22" y="-517.17" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no&#45;circular</text>
-</g>
 <!-- src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/AddToCartButton/AddToCartButton.module.css -->
-<g id="edge34" class="edge">
+<g id="edge35" class="edge">
 <title>src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/AddToCartButton/AddToCartButton.module.css</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M922.39,-459.66C930.66,-457.67 939.43,-455.67 947.62,-454 954.62,-452.57 961.93,-451.19 969.25,-449.88"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="969.28,-452 974.83,-448.9 968.56,-447.87 969.28,-452"/>
 </g>
+<!-- src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/Price/Price.tsx -->
+<g id="edge34" class="edge">
+<title>src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/Price/Price.tsx</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M928.93,-478.18C930.94,-479.31 932.85,-480.58 934.62,-482 944.39,-489.84 937.76,-499.28 947.62,-507 963.46,-519.4 985.25,-524.95 1003.54,-527.38"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1002.99,-529.43 1009.19,-528 1003.45,-525.26 1002.99,-529.43"/>
+</g>
 <!-- src/shared/ui/AddToCartButton/mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav -->
-<g id="node29" class="node">
+<g id="node30" class="node">
 <title>src/shared/ui/AddToCartButton/mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav</title>
-<g id="a_node29"><a xlink:href="src/shared/ui/AddToCartButton/mixkit-on-or-off-light-switch-tap-2585.wav" xlink:title="mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav">
+<g id="a_node30"><a xlink:href="src/shared/ui/AddToCartButton/mixkit-on-or-off-light-switch-tap-2585.wav" xlink:title="mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav">
 <path fill="#ffffcc" stroke="black" d="M1125.71,-477.88C1125.71,-477.88 953.54,-477.88 953.54,-477.88 950.58,-477.88 947.62,-474.92 947.62,-471.96 947.62,-471.96 947.62,-466.04 947.62,-466.04 947.62,-463.08 950.58,-460.12 953.54,-460.12 953.54,-460.12 1125.71,-460.12 1125.71,-460.12 1128.67,-460.12 1131.62,-463.08 1131.62,-466.04 1131.62,-466.04 1131.62,-471.96 1131.62,-471.96 1131.62,-474.92 1128.67,-477.88 1125.71,-477.88"/>
 <text text-anchor="start" x="955.62" y="-465.32" font-family="Helvetica,sans-Serif" font-size="9.00">mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav</text>
 </a>
 </g>
 </g>
 <!-- src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/AddToCartButton/mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav -->
-<g id="edge35" class="edge">
+<g id="edge36" class="edge">
 <title>src/shared/ui/AddToCartButton/AddToCartButton.tsx&#45;&gt;src/shared/ui/AddToCartButton/mixkit&#45;on&#45;or&#45;off&#45;light&#45;switch&#45;tap&#45;2585.wav</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M934.71,-469C935.99,-469 937.29,-469 938.59,-469"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="938.3,-471.1 944.3,-469 938.3,-466.9 938.3,-471.1"/>
 </g>
 <!-- src/shared/ui/Layout/Layout.module.css -->
-<g id="node30" class="node">
+<g id="node31" class="node">
 <title>src/shared/ui/Layout/Layout.module.css</title>
-<g id="a_node30"><a xlink:href="src/shared/ui/Layout/Layout.module.css" xlink:title="Layout.module.css">
-<path fill="#ffffcc" stroke="black" d="M1079.96,-537.88C1079.96,-537.88 999.29,-537.88 999.29,-537.88 996.33,-537.88 993.38,-534.92 993.38,-531.96 993.38,-531.96 993.38,-526.04 993.38,-526.04 993.38,-523.08 996.33,-520.12 999.29,-520.12 999.29,-520.12 1079.96,-520.12 1079.96,-520.12 1082.92,-520.12 1085.88,-523.08 1085.88,-526.04 1085.88,-526.04 1085.88,-531.96 1085.88,-531.96 1085.88,-534.92 1082.92,-537.88 1079.96,-537.88"/>
-<text text-anchor="start" x="1001.38" y="-525.33" font-family="Helvetica,sans-Serif" font-size="9.00">Layout.module.css</text>
+<g id="a_node31"><a xlink:href="src/shared/ui/Layout/Layout.module.css" xlink:title="Layout.module.css">
+<path fill="#ffffcc" stroke="black" d="M1079.96,-597.88C1079.96,-597.88 999.29,-597.88 999.29,-597.88 996.33,-597.88 993.38,-594.92 993.38,-591.96 993.38,-591.96 993.38,-586.04 993.38,-586.04 993.38,-583.08 996.33,-580.12 999.29,-580.12 999.29,-580.12 1079.96,-580.12 1079.96,-580.12 1082.92,-580.12 1085.88,-583.08 1085.88,-586.04 1085.88,-586.04 1085.88,-591.96 1085.88,-591.96 1085.88,-594.92 1082.92,-597.88 1079.96,-597.88"/>
+<text text-anchor="start" x="1001.38" y="-585.33" font-family="Helvetica,sans-Serif" font-size="9.00">Layout.module.css</text>
 </a>
 </g>
 </g>
 <!-- src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/di/index.ts -->
 <g id="edge38" class="edge">
 <title>src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/di/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M909.79,-538.34C984.88,-567.81 1216.93,-658.9 1302.37,-692.44"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1301.47,-694.34 1307.82,-694.58 1303.01,-690.43 1301.47,-694.34"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M914.05,-596.26C992.37,-616.52 1213.32,-673.68 1299.42,-695.96"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1298.77,-697.96 1305.11,-697.43 1299.83,-693.89 1298.77,-697.96"/>
 </g>
 <!-- src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/feature&#45;flags/index.ts -->
 <g id="edge39" class="edge">
 <title>src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/feature&#45;flags/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M913.9,-522.38C921.88,-519.09 929.74,-514.21 934.62,-507 970.08,-454.71 917.64,-278.61 947.62,-223 960.71,-198.74 987.06,-181.15 1008.05,-170.27"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M893.68,-579.64C905.06,-565.13 926,-535.86 934.62,-507 952.72,-446.47 917.64,-278.61 947.62,-223 960.71,-198.74 987.06,-181.15 1008.05,-170.27"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1008.93,-172.18 1013.37,-167.63 1007.06,-168.41 1008.93,-172.18"/>
 </g>
 <!-- src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/theme/index.ts -->
 <g id="edge40" class="edge">
 <title>src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/theme/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M913.98,-521.86C921.77,-518.56 929.49,-513.81 934.62,-507 958.43,-475.44 928.07,-453.36 947.62,-419 962.81,-392.32 991.66,-371.4 1012.82,-358.71"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M892.96,-580C903.78,-565.51 924.44,-535.7 934.62,-507 947.85,-469.74 928.07,-453.36 947.62,-419 962.81,-392.32 991.66,-371.4 1012.82,-358.71"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1013.76,-360.6 1017.89,-355.77 1011.65,-356.97 1013.76,-360.6"/>
 </g>
 <!-- src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/ui/Layout/Layout.module.css -->
 <g id="edge37" class="edge">
 <title>src/shared/ui/Layout/Layout.tsx&#45;&gt;src/shared/ui/Layout/Layout.module.css</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M913.99,-529C933.61,-529 960.45,-529 984.2,-529"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="984.11,-531.1 990.11,-529 984.11,-526.9 984.11,-531.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M913.99,-589C933.61,-589 960.45,-589 984.2,-589"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="984.11,-591.1 990.11,-589 984.11,-586.9 984.11,-591.1"/>
 </g>
 <!-- src/shared/ui/style.d.ts -->
 <g id="node33" class="node">
