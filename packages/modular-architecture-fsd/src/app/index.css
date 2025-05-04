@@ -1,0 +1,69 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Light theme colors */
+  --color-background: #fafafa;
+  --color-background-secondary: #ccc;
+  --color-card-background: #ffffff;
+  --color-text: #000000;
+  --color-text-secondary: #666666;
+  --color-border: #eaeaea;
+  --color-primary: #000000;
+  --color-primary-hover: #333333;
+  --color-danger: #ff0000;
+  --color-danger-hover: #e60000;
+  --color-input-background: #ffffff;
+  --color-input-border: #eaeaea;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --color-background: #000000;
+  --color-card-background: #111111;
+  --color-background-secondary: #222222;
+  --color-text: #ffffff;
+  --color-text-secondary: #888888;
+  --color-border: #333333;
+  --color-primary: #ffffff;
+  --color-primary-hover: #eaeaea;
+  --color-danger: #ff4444;
+  --color-danger-hover: #ff6666;
+  --color-input-background: #1a1a1a;
+  --color-input-border: #333333;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+input {
+  background-color: var(--color-input-background);
+  color: var(--color-text);
+  border: 1px solid var(--color-input-border);
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+} 

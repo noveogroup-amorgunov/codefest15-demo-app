@@ -1,0 +1,50 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.layout:has(.sidebar) {
+  grid-template-columns: 1fr 450px;
+}
+
+.title {
+  padding: 0 24px;
+}
+
+.actions {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .layout, .layout:has(.sidebar) {
+    grid-template-columns: 1fr;
+  }
+  
+  .app {
+    padding: 16px 0;
+  }
+}
+
+.sidebar {
+  background: var(--color-background-secondary);
+  top: 0;
+  position: sticky;
+  padding: 24px;
+  min-height: 300px;
+}
+
+.sidebarContent {
+  background: var(--color-background);
+}
