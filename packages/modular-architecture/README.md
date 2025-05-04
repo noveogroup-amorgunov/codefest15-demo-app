@@ -4,7 +4,7 @@
 
 ## Dependency Graph
 
-![Dependency Graph](./dependency-graph-preview.svg)
+![Dependency Graph](./dependency-graph.svg)
 
 ## How to use
 
