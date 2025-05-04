@@ -1,0 +1,17 @@
+# modular-architecture
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/codefest15-demo-app/tree/main/packages/modular-architecture)
+
+## Dependency Graph
+
+![Dependency Graph](./dependency-graph-preview.svg)
+
+## How to use
+
+Install deps and then run with npm, Yarn or pnpm to startup the example:
+
+```bash
+npm run dev
+yarn dev
+pnpm dev
+```
