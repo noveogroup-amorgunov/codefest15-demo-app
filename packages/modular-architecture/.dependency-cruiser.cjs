@@ -2,8 +2,16 @@
 module.exports = {
   forbidden: [
     {
-      name: 'no-circular',
+      name: 'modules-not-to-modules',
+      comment:
+          'One modules should not depend on another modules (in a separate folder)',
       severity: 'warn',
+      from: { path: '(^src/modules/)([^/]+)/' },
+      to: { path: '^$1', pathNot: '$1$2' },
+    },
+    {
+      name: 'no-circular',
+      severity: 'error',
       comment:
         'This dependency is part of a circular relationship. You might want to revise '
         + 'your solution (i.e. use dependency inversion, make sure the modules have a single responsibility) ',
@@ -201,7 +209,7 @@ module.exports = {
     /* Which modules not to follow further when encountered */
     doNotFollow: {
       /* path: an array of regular expressions in strings to match against */
-      path: ['node_modules'],
+      path: ['node_modules', '.*\\.(d.ts)$'],
     },
 
     /* Which modules to exclude */
@@ -356,7 +364,14 @@ module.exports = {
            collapses everything in node_modules to one folder deep so you see
            the external modules, but their innards.
          */
-        collapsePattern: 'node_modules/(?:@[^/]+/[^/]+|[^/]+)',
+        collapsePattern: [
+          'src/(core/(?!services)[^/]+/)',
+          'src/(core/services/[^/]+/)',
+          'src/(modules/[^/]+/)',
+          'src/(types/[^/]+/)',
+        ],
+
+        // 'node_modules/(?:@[^/]+/[^/]+|[^/]+)',
 
         /* Options to tweak the appearance of your graph.See
            https://github.com/sverweij/dependency-cruiser/blob/main/doc/options-reference.md#reporteroptions

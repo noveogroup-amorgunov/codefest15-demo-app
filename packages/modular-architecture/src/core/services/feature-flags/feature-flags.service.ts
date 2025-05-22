@@ -1,10 +1,7 @@
+import type { FeatureFlag } from '~/types/featureFlags'
 import { signal } from '@preact/signals'
 
-export interface FeatureFlagsStore {
-  darkTheme: boolean
-  cart: boolean
-  audioEffects: boolean
-}
+export type FeatureFlagsStore = Record<FeatureFlag, boolean>
 
 export const featureFlagsStore = signal<FeatureFlagsStore>({
   darkTheme: true,
