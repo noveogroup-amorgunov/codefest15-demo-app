@@ -1,12 +1,19 @@
 import { useContext } from 'react'
-import { DIContext } from '../model/context'
+import type { container } from '../model/DIContainer'
+import { DIContext } from '../model/DIContainerProvider'
 
-export function useDi<T extends ReturnType<DIContainer['getKeys']>[number]>(token: T) {
+export function useDi<T extends ReturnType<typeof container['getKeys']>[number]>(token: T) {
   const di = useContext(DIContext)
 
   if (!di) {
     throw new Error('DIContext is not found')
   }
 
-  return di.get(token)
+  const service = di.get(token)
+
+  if (!service) {
+    throw new Error(`Service ${token} is not registered yet`)
+  }
+
+  return service
 }

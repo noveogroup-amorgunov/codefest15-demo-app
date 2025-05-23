@@ -1,4 +1,5 @@
 import { signal } from '@preact/signals'
+import { container } from '~/shared/di'
 import type { FeatureFlag } from './types'
 
 export type FeatureFlagsStore = Record<FeatureFlag, boolean>
@@ -23,4 +24,13 @@ export const featureFlagService = {
       [featureFlag]: !featureFlagsStore.value[featureFlag],
     }
   },
+}
+
+container.register('FEATURE_FLAGS_SERVICE_TOKEN', featureFlagService)
+
+declare module '~/shared/di/model/types' {
+  // eslint-disable-next-line ts/consistent-type-definitions
+  export interface DIContainerService {
+    FEATURE_FLAGS_SERVICE_TOKEN: typeof featureFlagService
+  }
 }

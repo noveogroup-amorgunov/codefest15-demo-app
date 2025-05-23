@@ -1,12 +1,13 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useDi } from '~/shared/di'
+import type { AppDispatch } from '~/shared/redux'
 import {
+  fetchPopularProducts,
   selectPopularProducts,
   selectPopularProductsError,
   selectPopularProductsLoading,
-} from '../../store/popular-products.selectors'
-import { fetchPopularProducts } from '../../store/popular-products.slice'
+} from '../../store/slice'
 import { ProductListCard } from '../ProductListCard/ProductListCard'
 import styles from './ProductList.module.css'
 

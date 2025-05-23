@@ -1,5 +1,7 @@
-import { DIContext } from '~/shared/di'
-import { container } from './register'
+import { createContext } from 'react'
+import { container } from './DIContainer'
+
+export const DIContext = createContext<typeof container | null>(null)
 
 export function DIContainerProvider({ children }: { children: React.ReactNode }) {
   // Здесь можно положить DI в реакт контекст

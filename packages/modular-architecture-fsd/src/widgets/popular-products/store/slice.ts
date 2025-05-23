@@ -1,5 +1,7 @@
+import type { WithSlice } from '@reduxjs/toolkit'
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import type { Product } from '~/shared/api'
+import { rootReducer } from '~/shared/redux'
 import { getPopularProducts } from '../api/getPopularProducts'
 
 type PopularProductsState = {
@@ -21,10 +23,15 @@ export const fetchPopularProducts = createAsyncThunk(
   },
 )
 
-const popularProductsSlice = createSlice({
+const slice = createSlice({
   name: 'popularProducts',
   initialState,
   reducers: {},
+  selectors: {
+    popularProducts: state => state.items,
+    popularProductsLoading: state => state.loading,
+    popularProductsError: state => state.error,
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchPopularProducts.pending, (state) => {
@@ -41,4 +48,14 @@ const popularProductsSlice = createSlice({
   },
 })
 
-export const popularProductsReducer = popularProductsSlice.reducer
+declare module '~/shared/redux/model/store' {
+  export type LazyLoadedSlices = {} & WithSlice<typeof popularProductsSlice>
+}
+
+export const popularProductsSlice = slice.injectInto(rootReducer)
+
+export const {
+  popularProducts: selectPopularProducts,
+  popularProductsLoading: selectPopularProductsLoading,
+  popularProductsError: selectPopularProductsError,
+} = popularProductsSlice.selectors

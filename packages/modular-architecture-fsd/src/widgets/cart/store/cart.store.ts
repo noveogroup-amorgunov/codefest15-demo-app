@@ -1,5 +1,6 @@
 import { signal } from '@preact/signals'
 import type { Product } from '~/shared/api'
+import { container } from '~/shared/di'
 
 type CartItem = {
   product: Product
@@ -64,4 +65,13 @@ export const cartStore = {
 
   getItemById: (productId: string) =>
     cartSignal.value.items.find(item => item.product.id === productId),
+}
+
+container.register('CART_STORE_TOKEN', cartStore)
+
+declare module '~/shared/di/model/types' {
+  // eslint-disable-next-line ts/consistent-type-definitions
+  export interface DIContainerService {
+    CART_STORE_TOKEN: typeof cartStore
+  }
 }
