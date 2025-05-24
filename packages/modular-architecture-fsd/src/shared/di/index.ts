@@ -1,3 +1,4 @@
-export { Container } from './lib/container'
 export { useDi } from './lib/useDi'
-export { DIContext } from './model/context'
+export { container } from './model/DIContainer'
+export { DIContainerProvider } from './model/DIContainerProvider'
+export type { DIContainerService } from './model/types'
