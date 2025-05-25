@@ -49,7 +49,8 @@ const slice = createSlice({
 })
 
 declare module '~/shared/redux/model/store' {
-  export type LazyLoadedSlices = {} & WithSlice<typeof popularProductsSlice>
+  // eslint-disable-next-line ts/consistent-type-definitions
+  export interface LazyLoadedReduxSlices extends WithSlice<typeof slice> {}
 }
 
 export const popularProductsSlice = slice.injectInto(rootReducer)
